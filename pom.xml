@@ -11,7 +11,13 @@
     <modules>
         <module>springcloudconfigserver</module>
         <module>springclouddiscoveryserver</module>
+        <module>coffeeservice</module>
     </modules>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.7.RELEASE</version>
+    </parent>
 
 </project>
